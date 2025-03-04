@@ -10,7 +10,7 @@ export default {
     mainColor() {
       const color =
         localConfig?.themes?.[this.currentTheme]?.main_color || false;
-      return color && color.length > 0 ? color : "#2A2259";
+      return color && color.length > 0 ? color : "#e4643d";
     },
     secondColor() {
       const color =

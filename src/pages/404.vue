@@ -2,14 +2,15 @@
   <div class="h-screen fixed inset-0 overflow-auto">
     <div class="error">
       <div class="error__header">
-        <router-link :to="homeLink">
+        <!-- <router-link :to="homeLink">
           <img
             width="200"
             class="error__logo"
             :src="
               localConfig.logo ? localConfig.logo : '/public/img/logo-white.svg'
             "
-        /></router-link>
+        /></router-link> -->
+        Nexus Exchange
       </div>
       <div class="error__container">
         <div class="error__images">
